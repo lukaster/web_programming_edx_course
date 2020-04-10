@@ -1,1 +1,3 @@
-# web_programming_edx_course
+# Project 0
+
+Web Programming with Python and JavaScript
