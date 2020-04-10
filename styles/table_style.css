@@ -1,0 +1,17 @@
+table{
+    margin: 5%;
+    border-collapse: collapse;
+
+}
+th, td{
+    font-family:"Arial Black";
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: darkgray;
+}
+th{
+    font-size: 34px;
+    background-color: darkcyan;
+   }
