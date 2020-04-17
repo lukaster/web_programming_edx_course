@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block first %}
+    <h1>{{headline_text}}</h1>
+    <h2>{% if i_am_sad %} I am so sad {% else %} I am not sad now {% endif %}</h2>
+{% endblock %}
+{% block second %}
+    <h1>why not be happy now</h1>
+    <a href="{{url_for('index')}}">click to say hello</a>
+{% endblock %}

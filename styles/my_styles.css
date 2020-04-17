@@ -1,38 +1,40 @@
-h1  {
-        color: cadetblue;
-    }
-h2  {
-       text-align: center;
-    }
+h1 {
+  color: cadetblue;
+}
+
+h2 {
+  text-align: center;
+}
 
 .tile {
-                font-family: "Arial Black";
-                background-color: antiquewhite;
-                padding: 2%;
-                margin: 1%;
-                width: 40%;
+  font-family: "Arial Black";
+  background-color: antiquewhite;
+  padding: 2%;
+  margin: 1%;
+  width: 40%;
 }
 
 #outer_wrap {
-                width: 98%;
-                margin: 3%;
-                }
-
-.inner_wrap{
-                 width: 98%;
-                display: flex;
-            }
-
-#main_background{
-            background-color: aliceblue ;
+  width: 98%;
+  margin: 3%;
 }
 
-#picture_catoclock{
-    padding: 2%;
-    width: 30%;
-    background-color: cadetblue;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+.inner_wrap {
+  width: 98%;
+  display: flex;
 }
+
+#main_background {
+  background-color: aliceblue;
+}
+
+#picture_catoclock {
+  padding: 2%;
+  width: 30%;
+  background-color: cadetblue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=my_styles.css.map */

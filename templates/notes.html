@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block first %}
+    <h1>Your beautiful notes: </h1>
+<ul>
+    {% for single_note in notes_list %}
+        <li>{{single_note}}</li>
+    {% endfor %}
+</ul>
+
+
+
+{% endblock %}
+{% block second %}
+    <h1>why not be happy now</h1>
+    <a href="{{url_for('index')}}">click to say hello</a>
+{% endblock %}
+
+{% block body %}
+<form action="{{ url_for('notes')}}" method="post">
+    <input type="text" name="note" placeholder="new note">
+    <button>Add new note</button>
+</form>
+{% endblock %}

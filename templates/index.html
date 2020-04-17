@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block first %}
+<h1>{{headline_text}}</h1>
+<h2>{% if i_am_sad %} I am so sad {% else %} I am not sad now {% endif %}</h2>
+{% endblock %}
+
+{% block second %}
+        <ul>
+            {% for name in name_list %}
+                <li>It is {{name}}</li>
+            {% endfor %}
+        </ul>
+    <a href="{{url_for('bye')}}">click to say bye</a><br>
+    <a href="{{url_for('notes')}}">go see your notes</a>
+{% endblock %}
+
+{% block body %}
+    <form action="{{ url_for('hello')}}" method="post">
+        <input type="text" name="name" placeholder="Gimme your name now">
+        <button>Submit</button>
+    </form>
+{% endblock %}
